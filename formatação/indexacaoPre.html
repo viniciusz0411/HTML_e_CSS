@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indexação</title>
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Modelo de Indexação.</h1>
+    <hr>
+    <h2>Codigo:</h2>
+    <p>Codigo escrito para a parte JS de um <strong>site</strong>!</p>
+    <pre> <!--Tag usado para no lugar do <br>, podendo quebrar qualquer linha.-->
+        <code>function tabuada(){
+        if (document.getElementById('txtn').value.length==0){
+            window.alert('NÚMERO INVÁLIDO!')
+        } else {
+            document.getElementById('seletabu').innerHTML=``;
+            var n = Number(document.getElementById('txtn').value)
+            for (let c=1; c<=10; c++){
+                let opc=document.createElement('option')
+                opc.text=`${n}x${c}=${n*c}`
+                opc.value=`tab${c}`
+                document.getElementById('seletabu').appendChild(opc)
+            }
+        }
+    }</code>
+    </pre>
+</body>
+</html>
