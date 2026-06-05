@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em HTML.</title>
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+</head>
+<body>
+    <h2>Imagens dinâmicas:</h2>
+    <p>Use a tag picture para por imagens dinâmicas (aumente e diminua a tela para ver o efeito)</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/img-m.png" type="image/png">
+        <img src="imgs/img-g.png" alt="Imagem Flexível">
+    </picture>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
