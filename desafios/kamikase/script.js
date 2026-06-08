@@ -13,8 +13,8 @@ function verificar(){
         resposta.style.borderRadius= '10px'
         resposta.style.padding= '10px'
     } else {
-        document.getElementById('res').innerHTML=`${nome.value}, você poderá participar da competição!✔`
-        resposta.style.backgroundColor= 'rgb(57, 92, 34)';
+        document.getElementById('res').innerHTML=`${nome.value}, você poderá participar da competição!✅`
+        resposta.style.backgroundColor= 'rgb(78, 153, 29)';
         resposta.style.borderRadius= '10px'
         resposta.style.padding= '10px'
     }
