@@ -1,0 +1,13 @@
+p{
+    text-align: justify;
+}
+main{
+    margin: auto;
+    width: 600px;
+    background-color: beige;
+}
+*{
+    background-image: linear-gradient(150deg, #424A59, #3B4254,#5885A0,#5CB2A7,#7DC196);
+    border-radius: 10px;
+    text-align: center;
+}
