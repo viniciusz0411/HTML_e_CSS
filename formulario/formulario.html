@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="nascimento.js" method="post">
+        <fieldset>
+            <legend>Dados</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" size="12" maxlength="30" minlength="5" placeholder="Seu nome:" required>
+            </p> 
+            <p>
+                <label for="iano">Ano de nascimento:</label>
+                <input type="date" name="ano" id="iano" value="2026-06-26">
+            </p>
+            <p>
+                <label for="tel">Número</label>
+                <input type="tel" name="tel" id="tel" minlength="8" maxlength="10" placeholder="(xx) xxxx-xxxx" required>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>

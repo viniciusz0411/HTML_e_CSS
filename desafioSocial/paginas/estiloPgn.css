@@ -1,0 +1,22 @@
+        *{
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+            background-color: aliceblue;
+        }
+        img{
+            width: 100vw;
+        }
+        a{
+            display: block;
+            background-color: brown;
+            text-decoration: none;
+            color: aliceblue;
+            text-align: center;
+            padding: 20px;
+            font-size: x-large;
+        }
+        ::-webkit-scrollbar{
+            width: 0;
+            height: 0;/*ESCONDE A BARRA*/
+        }

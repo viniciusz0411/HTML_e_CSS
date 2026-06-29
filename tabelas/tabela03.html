@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de celulas</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .tit{
+            background-color: rgb(88, 88, 88);
+            color: aliceblue;
+        }
+        #P{
+            width: 80px;
+        }
+        #G{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="tit" id="G" rowspan="2" scope="col"></th>
+            <th class="tit" id="G" rowspan="2" scope="col"></th>
+            <th class="tit" id="P" colspan="2" scope="colgroup"></th>
+            <th class="tit" id="P" rowspan="2" scope="col"></th>
+        </tr>
+        <tr>
+            <th class="tit" id="P" scope="col"></th>
+            <th class="tit" id="P" scope="col"></th>
+        </tr>
+        <tr>
+            <th class="tit" rowspan="4" scope="row"></th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th class="tit" id="G" colspan="4" scope="row"></th>
+            <th class="tit" id="P" scope="col"></th>
+
+        </tr>
+        <tr>
+            <th class="tit" rowspan="2" scope="row"></th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th class="tit" id="G" colspan="4" scope="row"></th>
+            <th class="tit" id="P" scope="col"></th>
+        </tr>
+    </table>
+</body>
+</html>
