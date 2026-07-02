@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Multiplicação</legend>
+        <div>
+            <label for="soma1">Numero:</label>
+            <input type="number" name="soma1" id="soma1">
+        </div>
+        <div>
+            <label for="soma2">Numero:</label>
+            <input type="number" name="soma2" id="soma2" oninput="res.innerHTML = Number(soma1.value) * Number(soma2.value)">
+        </div>
+        <p>
+            <label for="res">Resultado: </label>
+            <output id="res">0</output>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Volume</legend>
+        <input type="range" name="vol" id="vol" value="0" oninput="sai.innerHTML=Number(vol.value)">
+        <output id="sai">0</output>
+    </fieldset>
+</body>
+</html>

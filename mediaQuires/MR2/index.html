@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientação</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            color: aliceblue;
+        }
+        @media screen and (orientation:landscape) {
+            body{
+                background: url('cev-landscape.jpg');
+                background-position: left bottom;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        @media screen and (orientation: portrait){
+            body{
+                background: url('cev-portrait.jpg');
+                background-position: center bottom;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Gire seu dispositivo!</h1>
+</body>
+</html>

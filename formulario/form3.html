@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="fim.js" method="post">
+        <label for="pais">Pais</label>
+        <select name="pais" id="pais">
+            <optgroup label="Sul">
+                <option value="a">a</option>
+                <option value="a">a</option>
+                <option value="a">a</option>
+                <option value="a">a</option>
+            </optgroup>
+            <optgroup label="Norte">
+                <option value="b">b</option>
+                <option value="b">b</option>
+                <option value="b">b</option>
+                <option value="b">b</option>
+            </optgroup>
+        </select>
+        <p>
+            <label for="letra">Letra</label>
+            <input type="text" name="letra" id="letra" list="lista">
+            <datalist id="lista">
+                <option value="s">s</option>
+                <option value="n">n</option>
+            </datalist>
+        </p>
+        <p>
+            <textarea name="area" id="area"></textarea>
+        </p>
+
+    </form>
+</body>
+</html>

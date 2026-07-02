@@ -1,0 +1,16 @@
+*{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+article{
+    width: 700px;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
