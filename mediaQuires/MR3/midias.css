@@ -1,0 +1,36 @@
+/* Celular (< 576px) , Tablet (768px - 992px) , Laptop (992px - 1200px) e Desktop(> 1200px)*/
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    body{
+        background-image: url('back-tablet.jpg');
+        
+    }
+    #pc,#phone,#print,#tv{
+    display: none;
+    }
+    #tablet{
+        display: block;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body{
+        background-image: url('back-pc.jpg');
+    }    
+    #tablet,#phone,#print,#tv{
+    display: none;
+    }
+    #pc{
+        display: block;
+    }
+}
+@media screen and (min-width:1201px) {
+    body{
+        background-image: url('back-tv.jpg');
+    }    
+    #pc,#phone,#print,#tablet{
+    display: none;
+    }
+    #tv{
+        display: block;
+    }
+}

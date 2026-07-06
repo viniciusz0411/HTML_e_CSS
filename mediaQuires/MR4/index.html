@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburgui</title>
+</head>
+<body onresize="if (window.innerWidth>=600){
+menu.style.display='block'
+}">
+    <header>
+        <h1>Menu</h1>
+        <div id="botao" onclick=" 
+            if (menu.style.display == 'block') {
+            menu.style.display='none'
+        } else {
+            menu.style.display='block'
+        }
+        ">≡ </div>
+        <menu id="menu">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </menu>
+    </header>
+    <section>
+        <div id="texto">
+            <h2>Texto</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis iusto in enim fugit accusamus consequuntur animi eum itaque repellendus, fugiat tempora eos natus magni maiores voluptate. Iste, error asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim nobis quasi rem? Dignissimos, rem mollitia. Sequi quod nihil quibusdam consequuntur quia optio quidem, eius delectus, repudiandae autem quas itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint labore soluta eius eveniet libero tempora nihil hic mollitia, perspiciatis eaque reiciendis modi dicta harum quia aspernatur debitis magni reprehenderit quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non velit odio commodi nesciunt accusamus illum, dolor iusto omnis totam quod aut minima alias cum ad dolores sed autem et fugiat!</p>
+        </div>
+    </section>
+</body>
+</html>
