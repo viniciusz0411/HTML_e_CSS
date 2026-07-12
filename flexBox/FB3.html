@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        main{
+            background-color: wheat;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            flex-basis: 250px;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 3px;
+            align-content: center;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="items" style="            flex-grow: 0;
+            flex-shrink: 1;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quod itaque tenetur consequatur beatae perferendis voluptas laudantium eos dolor, dolorum porro magni nulla repudiandae tempore hic, maxime repellat, sapiente nisi.</div>
+        <div class="items" style="            flex-grow: 2;
+            flex-shrink: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quod itaque tenetur consequatur beatae perferendis voluptas laudantium eos dolor, dolorum porro magni nulla repudiandae tempore hic, maxime repellat, sapiente nisi.</div>
+        <div class="items" style="            flex-grow: 1;
+            flex-shrink: 2;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quod itaque tenetur consequatur beatae perferendis voluptas laudantium eos dolor, dolorum porro magni nulla repudiandae tempore hic, maxime repellat, sapiente nisi.</div>
+    </main>
+</body>
+</html>

@@ -7,17 +7,15 @@ body{
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(150deg, #424A59, #3B4254,#5885A0,#5CB2A7,#7DC196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main{
     background-color: aliceblue;
     height: 500px;
     width: 300px;
     border-radius: 10px;
-    overflow: hidden;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);    
     transition: width 1s, height 1s;
 }
 #img{

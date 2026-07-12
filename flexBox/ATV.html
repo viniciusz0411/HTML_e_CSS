@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        #cab{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: rgb(145, 145, 145);
+            padding: 20px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #txt{
+            flex: 0 0 200px;
+
+        }
+        section{
+            flex: 0 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            margin-top: 10px;
+            justify-content: flex-end;
+        }
+        .but{
+            flex: 0 0 75px;
+            background-color: rgb(0, 0, 0);
+            border: 2px solid black;
+            margin: 5px;
+            text-align: center;
+            color: aliceblue;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #corpo{
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px 20px 20px 20px;
+            max-width: 600px;
+        }
+        h2{
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        @media screen and (max-width: 600px){
+            #cab,section{
+                flex-flow: column nowrap;
+                align-items: stretch;
+                margin: 0px;
+
+            }
+            .but{
+                flex: 1 0 35px;
+                align-content: center;
+            }
+            #txt{
+                flex: 1 1 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main id="cab">
+        <div id="txt"><h1>Meu site</h1></div>
+        <section>
+            <div class="but">1</div>
+            <div class="but">2</div>
+            <div class="but">3</div>
+            <div class="but">4</div>
+            <div class="but">5</div>
+            <div class="but">6</div>
+        </section>
+    </main>
+    <main id="corpo">
+        <h2>Texto</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nobis quam necessitatibus libero enim, illo accusamus beatae rerum, et impedit, doloribus veritatis consequatur quaerat placeat officia commodi culpa voluptate quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla suscipit? Nisi tenetur hic, assumenda tempore non nihil porro minima inventore ipsum commodi culpa officia a velit, necessitatibus exercitationem delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil aspernatur porro excepturi omnis ullam animi consequatur soluta quod asperiores quam in, obcaecati nostrum, doloribus eius autem maiores modi nisi voluptatem!</p>
+    </main>
+</body>
+</html>
